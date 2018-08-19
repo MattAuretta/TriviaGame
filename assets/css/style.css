@@ -1,0 +1,70 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #666;
+    font-family: 'Acme', sans-serif;
+}
+
+.options {
+    border: 1px solid #222;
+    border-radius: 0.5em;
+    background-color: #54afff;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+.options:hover {
+    background-color: #3d95e2;
+    cursor: pointer;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    margin-top: 0.4em;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+#start-btn {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0.5em 2em;
+    font-size: 1.5em;
+}
+
+#reset-btn {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding: 0.5em 2em;
+    font-size: 1.5em;
+}
+
+.image {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+#image {
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+#options-div {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+#question-div {
+    font-weight: bold;
+    font-size: 1.75em;
+}
+
+#timer-div {
+    font-weight: bold;
+}
